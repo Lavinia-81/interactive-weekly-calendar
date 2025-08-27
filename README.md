@@ -1,4 +1,4 @@
-# ✨  Interactive Weekly Calenda – Cosmic Edition https://lavinia-81.github.io/interactive-weekly-calendar/
+# ✨  Interactive Weekly Calenda – Cosmic Edition 
 
 An interactive, responsive calendar that blends clarity, functionality, and cosmic inspiration.  
 Built from scratch with HTML, CSS, and JavaScript — featuring moon phases, motivational quotes, theme selection, and a digital clock.
@@ -19,6 +19,7 @@ Built from scratch with HTML, CSS, and JavaScript — featuring moon phases, mot
 ---
 
 ## 📸 Preview
+https://lavinia-81.github.io/interactive-weekly-calendar/
 
 > _“Keep building. Keep inspiring. You’ve got this.”_  
 
