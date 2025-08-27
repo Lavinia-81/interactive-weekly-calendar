@@ -14,19 +14,58 @@ Built from scratch with HTML, CSS, and JavaScript — featuring moon phases, mot
 - 💬 **Motivational Quotes** – Refreshing affirmations to keep you inspired
 - 📄 **Export to PDF** – Print-friendly layout with automatic menu hiding
 - 🍔 **Hamburger Menu** – Clean vertical menu with animated toggle
+- 📱 Fully responsive (mobile, tablet, desktop)
 - 💾 **LocalStorage Integration** – Remembers your theme, date, and quote preferences
 
 ---
 
-## 📸 Preview
-https://lavinia-81.github.io/interactive-weekly-calendar/
+## 🚀 Live Demo
+
+🔗 [GitHub Pages version](https://lavinia-81.github.io/interactive-weekly-calendar/)
 
 > _“Keep building. Keep inspiring. You’ve got this.”_  
 
 ---
 
-## 🚀 Getting Started
+## 🛡️ Licensing & Originality
 
-1. Clone the repository  
-   ```bash
-   git clone 
+This product is **100% original** — all code, design, and assets were created by Maria Creation.
+
+**License:**  
+✅ Personal and commercial use permitted  
+❌ Redistribution or resale prohibited  
+❌ Not for use in AI training datasets
+
+For extended licensing or collaboration:  
+📧 maria.creation
+
+---
+
+## 👩‍💻 About the Creator
+
+**Maria Creation** is a digital creator who blends clarity, beauty, and utility in every product. Her work empowers non-technical users through thoughtful design and ethical entrepreneurship.
+
+> _“Built with clarity. Shared with purpose.”_
+
+---
+
+## 📦 Folder Structure
+📁 interactive-weekly-calendar/ 
+├── index.html 
+├── style.css 
+├── script.js 
+├── img/ 
+│  ├── img1.png │  
+   ├── img2.png │   
+├── README.md 
+├── LICENSE.txt
+
+---
+
+## 💙 Final Note
+
+This calendar is more than a tool — it’s a companion.  
+It helps you plan with purpose, reflect with clarity, and stay connected to the rhythm of time and nature.
+
+---
+
