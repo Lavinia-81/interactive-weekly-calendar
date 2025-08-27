@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Weekly Calendar</title>
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <div class="page-wrapper">
+  <nav class="navbar">
+    <img src="img/the golden brand icon.png" alt="Motivational Icon" class="wave-icon">
+    <div class="nav-left">
+      <h1>✨ Interactive Weekly Calendar ✨</h1>
+      <div class="nav-info">
+      <div id="nav-date">
+        <span id="nav-day"></span>,
+        <span id="nav-month"></span>
+        <span id="nav-date-num"></span>,
+        <span id="nav-year"></span>
+      </div>
+      <div id="nav-clock"></div>
+      <div id="moon-phase"></div>
+    </div>
+    </div>
+    <div class="nav-right">
+      <button id="hamburger">&#9776;</button>
+      <div id="menu" class="hidden">
+        <button id="change-quote">🔁 Change Quote</button>
+
+        <button id="export-pdf">📄 Export PDF</button>
+        <label for="theme-select">🎨 Theme:</label>
+        <select id="theme-select">
+          <option value="default">Default</option>
+          <option value="blue">Blue</option>
+          <option value="pink">Pink</option>
+          <option value="green">Green</option>
+          <option value="gold">Gold</option>
+          <option value="dark">Dark</option>
+          <option value="img1">Img1</option>
+          <option value="img2">Img2</option>
+          <option value="img3">Img3</option>
+          <option value="img4">Img4</option>
+          <option value="img5">Img5</option>
+          <option value="img6">Img6</option>
+          <option value="img7">Img7</option>
+          <option value="img8">Img8</option>
+          <option value="img9">Img9</option>
+          <option value="img10">Img10</option>
+        </select>
+      </div>
+    </div>
+  </nav>
+  <!--  Main Content -->
+  <div class="container">
+    <!-- Quote Section -->
+      <h2 id="quote">“Your journey begins with clarity.”</h2>
+    <section class="quote-box"></section>
+    <!-- Calendar Controls -->
+    <section class="controls">
+      <label for="month-select">Month:</label>
+      <select id="month-select"></select>
+      <label for="year-select">Year:</label>
+      <select id="year-select"></select>
+    </section>
+
+    <!-- Calendar Table -->
+    <main>
+      <table id="calendar">
+        <thead>
+          <tr>
+            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th>
+            <th>Thu</th><th>Fri</th><th>Sat</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </main>
+  </div>
+  <footer class="footer">
+  <p>✨ &copy; <span id="year"></span> Maria Creation. All rights reserved. ✨</p>
+  <p>💙 Your journey begins with clarity. Keep building.</p>
+</footer>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
